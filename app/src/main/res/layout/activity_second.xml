@@ -6,21 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-    <Button
-        android:id="@+id/close_secondactivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Secondactivity"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="15dp"
-        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="vällkommen"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="185dp"
+        android:layout_margin="20dp"
+        android:text="vällkommen till sida två"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <Button
+        android:id="@+id/close_secondactivity"
+        android:layout_width="199dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:text="close_secondactivity"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="327dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
