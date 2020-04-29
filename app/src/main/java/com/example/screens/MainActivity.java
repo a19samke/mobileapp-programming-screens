@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("Name", "Samuel");
                 startActivity(intent);
             }
+
         });
+
+
+
+
     }
 }
