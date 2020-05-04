@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <fragment
+        android:id="@+id/fragment_f"
+        android:name="com.example.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:background="@color/colorAccent"
+        android:tag="blank_fragment"
+        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:id="@+id/fragment_b"
+        android:layout_width="199dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:text="Fragment_button"
+        tools:layout_editor_absoluteX="-9dp" />
+</FrameLayout>
