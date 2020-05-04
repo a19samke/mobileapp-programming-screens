@@ -15,7 +15,7 @@
         android:layout_width="199dp"
         android:layout_height="61dp"
         android:layout_margin="10dp"
-        android:text="secondactivity"
+        android:text="close_secondactivity"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-9dp" />
@@ -41,14 +41,7 @@
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="449dp" />
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="com.example.screens.BlankFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1432dp"
-        tools:layout_editor_absoluteY="1489dp"
-        tools:ignore="MissingConstraints" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
